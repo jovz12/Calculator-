@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<head> 
+    <title>ANETRA CALCULATOR !</title>
+    <link rel="stylesheet" href="../CSS/style.css">
+    <link rel="icon" href="../IMAGE/anetra.png" type="IMAGE">
+</head>
+
+<header>
+    <div align="center"> 
+        <img src="../IMAGE/logo.png" width="15%"/>
+    </div>
+   
+</header>
+
+<body>
+    <div align="center" id="calculator">
+    
+
+        <div id="shadow">
+            <form name="numbers">
+                <div id="calcuscreen">
+
+                    <div id="doublecolor">
+                        <div class="battery">
+                            <div class="batt">
+                                <img src="../IMAGE/logoo.png" id="logocalcu">
+                            </div>
+
+                           
+                        </div> 
+
+                        <input type="text" id="screen" placeholder="0" readonly>
+                    </div>
+                </div>
+
+                <div id="calcunum">
+                    <div>
+                        <input type="button" value = "AC" onclick = "allClear()" id="number">
+                        <input type="button" value = "DEL" onclick="del()" id="number">
+                        <input type="button" value = "%" onclick = "specialSign()" id="signs">
+                        <input type="button" value = "-" onclick = "calcuSign('-')" id="signs">
+                        
+                    </div>
+
+                    <div>
+                        <input type="button" value = "7" onclick = "keypad('7')" id="number">
+                        <input type="button" value = "8" onclick = "keypad('8')" id="number">
+                        <input type="button" value = "9" onclick = "keypad('9')" id="number">
+                        <input type="button" value = "×" onclick = "calcuSign('×')" id="signs">
+                    </div>
+
+                    <div>
+                        <input type="button" value = "4" onclick = "keypad('4')" id="number">
+                        <input type="button" value = "5" onclick = "keypad('5')" id="number">
+                        <input type="button" value = "6" onclick = "keypad('6')" id="number">
+                        <input type="button" value = "÷" onclick = "calcuSign('÷')" id="signs">
+                    </div>
+
+                    <div>
+                        <input type="button" value = "1" onclick = "keypad('1')" id="number">
+                        <input type="button" value = "2" onclick = "keypad('2')" id="number">
+                        <input type="button" value = "3" onclick = "keypad('3')" id="number">
+                        <input type="button" value = "+" onclick = "calcuSign('+')" id="signs">
+
+                    </div>
+
+                    <div>
+                        <input type="button" value = "0" onclick = "keypad('0')" id="number">
+                        <input type="button" value = "× 10" onclick = "calcuSign('×10')" id="number">
+                        <input type="button" value = "=" onclick = "calculate()" id="equal">
+                    </div>
+                </div>
+            </form>
+            </div>
+        </div>
+    
+</body>
+
+        <script src="../JAVASCRIPT/script.js"></script>
+
+<footer>
+    <p id="submitted">SUBMITTED BY: JOVILYN F. ESQUERRA. BSCS 1A. 2024.</p>
+</footer>
+
+</html>
