@@ -1,5 +1,4 @@
 # Calculator
-Meet my cute pink calculator—a vibrant little tool that adds a pop of color and fun to your math adventures ! 🌸🍓
 
 This stylish tool is not just a pretty face—it’s designed to make your math tasks a breeze! With a clean and user-friendly interface built using HTML, CSS, and JavaScript, you can easily perform all your basic calculations, including addition, subtraction, multiplication, and division.
 
